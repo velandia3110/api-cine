@@ -1,0 +1,94 @@
+      📁 public
+      └── 📄 index.html
+      📁 resources
+      └── 📁 en
+      ├── 📄 errors.json
+      ├── 📄 translation.json
+      └── 📄 zod.json
+      📁 src
+      ├── 📁 domain
+      │   ├── 📁 datasources
+      │   │   ├── 📄 index.ts
+      │   │   ├── 📄 booking.datasource.ts
+      │   │   ├── 📄 movie.datasource.ts
+      │   │   └── 📄 payment.datasource.ts
+      │   ├── 📁 entities
+      │   │   ├── 📄 index.ts
+      │   │   ├── 📄 movie.entity.ts
+      │   │   ├── 📄 showing.entity.ts
+      │   │   ├── 📄 seat.entity.ts
+      │   │   ├── 📄 booking.entity.ts
+      │   │   └── 📄 user.entity.ts
+      │   ├── 📁 errors
+      │   │   ├── 📄 index.ts
+      │   │   └── 📄 custom.error.ts
+      │   ├── 📁 repositories
+      │   │   ├── 📄 index.ts
+      │   │   ├── 📄 Ibooking.repository.ts
+      │   │   ├── 📄 Imovie.repository.ts
+      │   │   └── 📄 Ishowing.repository.ts
+      │   ├── 📁 types
+      │   │   ├── 📁 enums
+      │   │   │   └── 📄 enums.ts
+      │   │   ├── 📁 interfaces
+      │   │   │   └── 📄 interfaces.ts
+      │   │   └── 📄 index.ts
+      │   └── 📄 index.ts
+      ├── 📁 application
+      │   ├── 📁 dtos
+      │   │   ├── 📁 auth
+      │   │   │   ├── 📄 login-user.dto.ts
+      │   │   │   └── 📄 register-user.dto.ts
+      │   │   ├── 📁 user
+      │   │   │   └── 📄 update-user.dto.ts
+      │   │   └── 📄 index.ts
+      │   ├── 📁 services
+      │   │   ├── 📄 index.ts
+      │   │   ├── 📄 auth.service.ts
+      │   │   └── 📄 email.service.ts
+      │   └── 📁 use-cases
+      │   │   ├── 📁 auth
+      │   │   ├── 📁 user
+      │   │   └── 📄 index.ts
+      ├── 📁 config
+      │   └── 📄 index.ts
+      ├── 📁 data
+      │   ├── 📁 mongo
+      │   │   ├── 📁 models
+      │   │   └── 📄 mongo-database.ts
+      │   └── 📄 index.ts
+      ├── 📁 infrastructure
+      │   ├── 📁 adapters
+      │   │   └── 📄 index.ts
+      │   ├── 📁 datasources
+      │   │   └── 📄 index.ts
+      │   ├── 📁 di
+      │   │   ├── 📄 container.ts
+      │   │   └── 📄 index.ts
+      │   └── 📁 repositories
+      │       └── 📄 index.ts
+      ├── 📁 presentation
+      │   ├── 📁 api
+      │   │   ├── 📁 auth
+      │   │   │   ├── 📄 controller.ts
+      │   │   │   └── 📄 routes.ts
+      │   │   ├── 📁 middlewares
+      │   │   │   └── 📄 index.ts
+      │   │   ├── 📁 user
+      │   │   │   ├── 📄 controller.ts
+      │   │   │   └── 📄 routes.ts
+      │   │   └── 📄 routes.ts
+      │   └── 📄 server.ts
+      ├── 📁 utils
+      │   └── 📄 index.ts
+      └── 📄 app.ts
+    📄 .env.template
+    📄 .gitignore
+    📄 API_RESPONSES.md
+    📄 README.md
+    📄 docker-compose.yml
+    📄 LICENSE
+    📄 nodemon.json
+    📄 package-lock.json
+    📄 package.json
+    📄 tsconfig.json

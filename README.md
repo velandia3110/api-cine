@@ -7,8 +7,9 @@ Theaters & Schedules: Access theater locations, screen capacities, and showtimes
 Bookings: Handle user reservations, manage seat availability, and issue tickets.
 Reviews: Enable users to leave reviews and ratings for movies.
 Authentication: Secure user authentication and role-based access for admins and customers.
+
 🛠️ Tech Stack
-Backend: Python with Flask/FastAPI (or any framework you use).
-Database: PostgreSQL/MySQL/MongoDB (adapt as per your stack).
+Backend: Nodejs with typescript.
+Database: MongoDB.
 Authentication: JWT-based secure user login.
 Deployment: Dockerized for seamless deployment.
